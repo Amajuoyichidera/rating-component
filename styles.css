@@ -8,7 +8,7 @@ body {
     padding: 10px;
     cursor: pointer;
     position: absolute;
-    max-width: 1000px;
+    width: 1000px;
     font-family: 'Poppins', sans-serif;
     background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtMjU1LXNhc2ktMjcuanBn.jpg);
     background-size: cover;
@@ -23,7 +23,6 @@ article {
     margin-top: 100px;
     padding: 20px;
     border-radius: 10px;
-    
 }
 .img-1 {
     width: 20px;
@@ -86,4 +85,32 @@ button:active {
 }
 a {
     text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+        height: auto;
+        font-size: 3vw;
+    }
+    article {
+        margin: 0;
+        padding: 10;
+        width: 350px;
+    }
+    .pg-1, .pg-2, .pg-3, .pg-4, .pg-5 {
+        margin: 0;
+    }
+
+}
+@media only screen and  (max-width: 768px) {
+    body {
+        width: 100%;
+        height: auto;
+        font-size: 3vw;
+    }
+    article {
+        margin: 0;
+        padding: 10;
+        width: 350px;
+    }
 }
